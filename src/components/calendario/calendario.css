@@ -1,0 +1,23 @@
+.calendario{
+    display: inline-block;
+    background-color: antiquewhite;
+}
+.lines-container{
+    height: 90%;
+}
+.title{
+    height: 10%;
+    line-height: 100%;
+    text-align: center;
+}
+.lines{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 10%;
+    background-color: blueviolet;
+    border: 1px solid black;
+    height: 90%;
+}
+.intervalo{
+    background-color: brown;
+}

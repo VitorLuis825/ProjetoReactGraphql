@@ -1,0 +1,25 @@
+header{
+    background-color: aquamarine;
+
+    grid-column: 1/3;
+    grid-row: 1/1;
+
+    /*Flex Parent*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    width: 5%;
+}
+#logo:hover{
+    width: 7%;
+    transition: 0.2s ease-in;
+}
+.logo-text{
+    display: inline-block;
+}
+header > div{
+    display: inline-block;
+    width: auto;
+}
